@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(241, 241, 241);
+}
+
+.container { 
+  display: flex;
+  margin-top: 60px;
+}
+
+.campoCadastro{
+  width: 40%;
+  margin-right: 50px;
+  padding: 30px;
+  border: 1px solid #dddddd;
+  height: 0%;
+}
+
+.campoListaContato {
+  width: 60%;
+  padding: 30px;
+  border: 1px solid #dddddd;
+  height: 100%;
+}
+
+.container .title{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#form-cadastro span{
+  font-size: 16px;
+  margin-right: 5px;  
+  font-weight: 500;
+}
+
+#form-cadastro input {
+  font-size: 16px;
+  padding: 7px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+#form-cadastro .btnSalvar{
+  font-size: 16px;
+  padding: 7px 14px;
+  font-weight: 700;
+  background-color: rgb(125, 241, 125);
+  border: none;
+  border-radius: 3px;
+}
+
+table {
+  width: 100%;
+}
+
+
+
+tbody tr td {
+  border-bottom: 2px solid black;
+  padding: 16px 8px;
+  font-size: 18px;
+}

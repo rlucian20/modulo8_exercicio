@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="campoCadastro">
+        <h2 class="title">Cadastro de Contatos</h2>
+        <form id="form-cadastro">
+          <span>Nome:</span>
+          <input
+            type="text"
+            id="nome-contato"
+            required
+            placeholder="Nome do contato"
+          />
+          <br />
+          <span>Telefone:</span>
+          <input
+            type="number"
+            id="numero-contato"
+            required
+            placeholder="Numero"
+          />
+          <br />
+          <button type="submit" class="btnSalvar">Salvar Contato</button>
+        </form>
+      </div>
+      <div class="campoListaContato">
+        <table cellspacing="0">
+          <thead>
+            <tr>
+              <td><h3 class="title">Lista de contatos</h3></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>...</td>
+              <td>...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
